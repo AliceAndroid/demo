@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\androidWorkspace\Demo02\app\libs\pdfbox-1.8.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c3ceec8253e28e128d601ac2f0272f0388061912">
+        <dex dex="F:\androidWorkspace\Demo02\app\build\intermediates\transforms\dex\demo01\debug\folders\1000\2\pdfbox-1.8.13_7e48d262a5632bcadf8f41ca89e96e89fa26c26b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidWorkspace\Demo02\app\build\intermediates\incremental-classes\demo01\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8e5562be664b89abdb547a4000e0adcf0df2774a">
+        <dex dex="F:\androidWorkspace\Demo02\app\build\intermediates\transforms\dex\demo01\debug\folders\1000\10\instant-run-bootstrap_9c5ccbcafeb56384af9e827ed6526f80b957c3a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidWorkspace\Demo02\app\build\intermediates\incremental-runtime-classes\demo01\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="7036f132539ab7bac7a57b7440d7c96ef43d4d27">
+        <dex dex="F:\androidWorkspace\Demo02\app\build\intermediates\transforms\dex\demo01\debug\folders\1000\10\instant-run_b864fa44d6bdf2977fe2b4283a8018fab4b4f6bf\classes.dex" />
+    </item>
+
+</items>

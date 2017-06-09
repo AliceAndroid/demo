@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "com.example.a1.demo02"
+        minSdkVersion 15
+        targetSdkVersion 16
+        versionCode 1
+        versionName "1.0"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//   构建不同的包名的多个包
+    productFlavors {
+        demo01 {
+            applicationId "com.example.a1.demo02_1"
+            manifestPlaceholders = [APP_NAME_VALUE:'demo_1']
+        }
+        demo02 {
+            applicationId "com.example.a1.demo02_2"
+            manifestPlaceholders = [APP_NAME_VALUE:'demo_2']
+        }
+        demo03 {
+            applicationId "com.example.a1.demo02_3"
+            manifestPlaceholders = [APP_NAME_VALUE:'demo_3']
+        }
+        demo04 {
+            applicationId "com.example.a1.demo02_4"
+            manifestPlaceholders = [APP_NAME_VALUE:'demo_4']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}
